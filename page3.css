@@ -1,0 +1,45 @@
+#page3{
+    min-height: 100vh;
+    width: 100%;
+    padding: 6vw 0;
+}
+
+#moving-text{
+    white-space: nowrap;
+    overflow: auto;
+}#moving-text::-webkit-scrollbar{
+    display: none;
+}
+
+.con{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: animate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+#moving-text h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 800;
+}
+.moving-circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #222222;
+    display: inline-block;
+    margin: 1vw 2vw;
+}
+
+
+@keyframes animate {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

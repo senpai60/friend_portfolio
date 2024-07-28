@@ -1,0 +1,46 @@
+#socials{
+    width: 100%;
+    height: 50vh;
+    background-color: #eee;
+    cursor: none;
+    position: relative;
+    overflow: hidden;
+}
+.social-box{
+    width:60%;
+    height: 100%;
+    transform: translate(35%,0%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    gap: 20px;
+    position: relative;
+}
+.after-box{
+width: 50vw;
+height: 100%;
+background-color: #333;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: .3s all ease-in-out;
+cursor: pointer;
+}
+.after-box i{
+    font-size: 4vw;
+    color: #eee;
+}
+.github:hover{
+    background-color: #2B3137;
+    scale: 90%;
+    color: #fff;
+}
+.linkedin:hover{
+    background-color: #0073AE;
+    scale: 90%;
+}
+.twitter:hover{
+    background-color: #0073AE;
+    scale: 90%;
+}
